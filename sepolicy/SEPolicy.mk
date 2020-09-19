@@ -28,3 +28,5 @@ endif # 845 and 710
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     $(COMMON_SEPOLICY_PATH)/generic/private
+
+-include device/neko/sepolicy/qcom/sepolicy.mk
